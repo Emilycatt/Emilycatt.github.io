@@ -1,0 +1,103 @@
+body {
+    background-color: #ade0bb;
+    font-family: "SUSE" Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color-scheme: normal;
+    margin: 0px;
+    font-size: 2vw;
+}
+
+#logo{
+    margin: 0px;
+    padding: 8px;
+    font-family: "SUSE", sans-serif;
+    font-weight: 500;
+    width: 20%;
+    border-radius: 30%;
+    text-shadow: 
+    1px 1px 0px #ade0bb,
+    -1px 1px 0px rgb(205, 102, 102),
+    1px 1px 0px #ade0bb,
+    -1px 1px 0px rgb(205, 102, 102);
+}
+
+ul{
+    margin: 0px;
+}
+
+#main-header {
+    background-color: #efe3cf;
+    display: flex;
+    height: 9vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+.navbutton {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+body > main article {
+    width: 80%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+#main-content aside {
+    width: 20%;
+}
+
+h2{
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+body > footer {
+    background-color: #efe3cf;
+    display: flex;
+}
+
+img {
+    border-radius: 10%;
+    <!-- image size> 
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 25px;
+}
+
+#footer-ul > div > li > a{
+    color: black;
+    text-decoration: none;
+}
+
